@@ -1,0 +1,84 @@
+/* ------------------ COLORS ----------------- */
+
+// Primary
+
+$very-dark-magenta: hsl(300, 43%, 22%);
+$soft-pink: hsl(333, 80%, 67%);
+
+// Neutral
+
+$dark-grayish-magenta: hsl(303, 10%, 53%);
+$light-grayish-magenta: hsl(300, 24%, 96%);
+$white: hsl(0, 0%, 100%);
+
+/* ------------------ CSS RESET ----------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 93.75%;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+
+  .bg-pattern-top {
+    position: absolute;
+    top: -40%;
+    left: -2.5%;
+  }
+
+  .bg-pattern-bottom {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+  }
+}
+
+picture,
+video,
+canvas,
+svg {
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* ------------------ CSS RESET ----------------- */
+
+/* ------------------ FOOTER ----------------- */
+
+.attribution {
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+  text-align: center;
+
+  a {
+    color: hsl(228, 45%, 44%);
+  }
+}
