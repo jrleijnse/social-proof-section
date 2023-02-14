@@ -20,7 +20,7 @@
     <title>Frontend Mentor | Social proof section</title>
   </head>
 
-  <main>
+  <main class="main-container">
     <section class="rating-section">
       <div class="user-container">
         <h1 class="rating-title">10,000+ of our users love our products.</h1>
@@ -32,8 +32,8 @@
       </div>
 
       <div class="stars-container">
-        <div class="stars-rating">
-          <div>
+        <div class="stars-rating mr2">
+          <div class="stars-row">
             <img class="star-icon" src="./images/icon-star.svg" />
             <img class="star-icon" src="./images/icon-star.svg" />
             <img class="star-icon" src="./images/icon-star.svg" />
@@ -43,8 +43,8 @@
           <span class="stars-text">Rated 5 Stars in Reviews</span>
         </div>
 
-        <div class="stars-rating">
-          <div>
+        <div class="stars-rating mr1">
+          <div class="stars-row">
             <img class="star-icon" src="./images/icon-star.svg" />
             <img class="star-icon" src="./images/icon-star.svg" />
             <img class="star-icon" src="./images/icon-star.svg" />
@@ -55,7 +55,7 @@
         </div>
 
         <div class="stars-rating">
-          <div>
+          <div class="stars-row">
             <img class="star-icon" src="./images/icon-star.svg" />
             <img class="star-icon" src="./images/icon-star.svg" />
             <img class="star-icon" src="./images/icon-star.svg" />
@@ -70,32 +70,59 @@
     <section class="testimonial-section">
       <div class="testimonial-container">
         <div class="customer-container">
-          <img class="customer-icon" />
+          <img
+            class="customer-icon"
+            src="./images/image-colton.jpg"
+            alt="Customer photo"
+          />
           <div class="customer">
-            <span class="customer-name"></span>
+            <span class="customer-name">Colton Smith</span>
+            <span class="customer-verified">Verified Buyer</span>
           </div>
-          <p class="testimonial-text"></p>
         </div>
+        <blockquote class="testimonial-text">
+          "We needed the same printed design as the one we had ordered a week
+          prior. Not only did they find the original order, but we also received
+          it in time. Excellent!"
+        </blockquote>
       </div>
 
-      <div class="testimonial-container">
+      <div class="testimonial-container mt1">
         <div class="customer-container">
-          <img class="customer-icon" />
+          <img
+            class="customer-icon"
+            src="./images/image-irene.jpg"
+            alt="Customer photo"
+          />
           <div class="customer">
-            <span class="customer-name"></span>
+            <span class="customer-name">Irene Roberts</span>
+            <span class="customer-verified">Verified Buyer</span>
           </div>
-          <p class="testimonial-text"></p>
         </div>
+        <blockquote class="testimonial-text">
+          "Customer service is always excellent and very quick turn around.
+          Completely delighted with the simplicity of the purchase and the speed
+          of delivery."
+        </blockquote>
       </div>
 
-      <div class="testimonial-container">
+      <div class="testimonial-container mt2">
         <div class="customer-container">
-          <img class="customer-icon" />
+          <img
+            class="customer-icon"
+            src="./images/image-anne.jpg"
+            alt="Customer photo"
+          />
           <div class="customer">
-            <span class="customer-name"></span>
+            <span class="customer-name">Anne Wallace</span>
+            <span class="customer-verified">Verified Buyer</span>
           </div>
-          <p class="testimonial-text"></p>
         </div>
+        <blockquote class="testimonial-text">
+          "Put an order with this company and can only praise them for the very
+          high standard. Will definitely use them again and recommend them to
+          everyone!"
+        </blockquote>
       </div>
     </section>
   </main>
@@ -109,12 +136,3 @@
     </footer>
   </body>
 </html>
-
-<!--     Colton Smith Verified Buyer "We needed
-the same printed design as the one we had ordered a week prior. Not only did
-they find the original order, but we also received it in time. Excellent!"
-Irene Roberts Verified Buyer "Customer service is always excellent and very
-quick turn around. Completely delighted with the simplicity of the purchase
-and the speed of delivery." Anne Wallace Verified Buyer "Put an order with
-this company and can only praise them for the very high standard. Will
-definitely use them again and recommend them to everyone!" -->
