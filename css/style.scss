@@ -62,7 +62,7 @@ select {
 /* ------------------ CSS RESET ----------------- */
 
 .main-container {
-  width: 66.5rem;
+  width: 66.8rem;
 }
 
 .rating-section {
@@ -73,7 +73,7 @@ select {
     width: 38%;
 
     .rating-title {
-      font-size: 2.9rem;
+      font-size: 3rem;
       font-weight: 700;
       color: $very-dark-magenta;
       line-height: 0.85;
@@ -83,6 +83,7 @@ select {
     .rating-text {
       margin-bottom: 5rem;
       color: $very-dark-magenta;
+      font-weight: 500;
     }
   }
 
@@ -103,8 +104,9 @@ select {
         display: flex;
         margin-right: 1.8rem;
         gap: 0.5rem;
-        // .star-icon {
-        // }
+        .star-icon {
+          width: 1rem;
+        }
       }
       .stars-text {
         color: $very-dark-magenta;
@@ -144,7 +146,7 @@ select {
         }
       }
       .customer-icon {
-        width: 3rem;
+        width: 2.8rem;
         border-radius: 999px;
         margin-right: 1.4rem;
       }

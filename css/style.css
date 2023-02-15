@@ -49,7 +49,7 @@ select {
 
 /* ------------------ CSS RESET ----------------- */
 .main-container {
-  width: 66.5rem;
+  width: 66.8rem;
 }
 
 .rating-section {
@@ -60,7 +60,7 @@ select {
   width: 38%;
 }
 .rating-section .user-container .rating-title {
-  font-size: 2.9rem;
+  font-size: 3rem;
   font-weight: 700;
   color: hsl(300deg, 43%, 22%);
   line-height: 0.85;
@@ -69,6 +69,7 @@ select {
 .rating-section .user-container .rating-text {
   margin-bottom: 5rem;
   color: hsl(300deg, 43%, 22%);
+  font-weight: 500;
 }
 .rating-section .stars-container {
   display: flex;
@@ -89,6 +90,9 @@ select {
   display: flex;
   margin-right: 1.8rem;
   gap: 0.5rem;
+}
+.rating-section .stars-container .stars-rating .stars-row .star-icon {
+  width: 1rem;
 }
 .rating-section .stars-container .stars-rating .stars-text {
   color: hsl(300deg, 43%, 22%);
@@ -126,7 +130,7 @@ select {
   color: hsl(333deg, 80%, 67%);
 }
 .testimonial-section .testimonial-container .customer-container .customer-icon {
-  width: 3rem;
+  width: 2.8rem;
   border-radius: 999px;
   margin-right: 1.4rem;
 }
