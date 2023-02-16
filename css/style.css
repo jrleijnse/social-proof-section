@@ -53,7 +53,7 @@ select {
   width: 82.8rem;
   padding: 8rem;
   position: relative;
-  background: url(../images/bg-pattern-bottom-desktop.svg) no-repeat right bottom, url(../images/bg-pattern-top-desktop.svg) no-repeat;
+  background: url(../images/bg-pattern-top-desktop.svg) no-repeat, url(../images/bg-pattern-bottom-desktop.svg) no-repeat right bottom;
 }
 
 .rating-section {
