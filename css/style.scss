@@ -64,7 +64,12 @@ select {
 /* ------------------ RATING SECTION ----------------- */
 
 .main-container {
-  width: 66.8rem;
+  width: 82.8rem;
+  padding: 8rem;
+  position: relative;
+  background: url(../images/bg-pattern-bottom-desktop.svg) no-repeat right
+      bottom,
+    url(../images/bg-pattern-top-desktop.svg) no-repeat;
 }
 
 .rating-section {
